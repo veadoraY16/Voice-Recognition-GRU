@@ -1,0 +1,83 @@
+{"intents": [
+  {"tag": "salam",
+    "patterns": ["Hi", "apa kabar?", "apakah ada orang?", "Halo", "selamat pagi", "selamat siang", "Hey", "selamat malam"],
+    "responses": ["Hello!", "senang melihatmu kembali", "hi, ada yang bisa dibantu"]
+  },
+  {"tag": "rasa terima kasih",
+    "patterns": ["Terima Kasih", "Terima Kasih, kamu sangat membantu", "Aku sungguh berterima kasih", "Terima kasih banyak", "Thanks","Thank You"],
+    "responses": ["Sama sama", "Senang telah membantu", "Dengan Senang Hati","suatu Kehormatan"]
+  },
+  {"tag": "selamat tinggal",
+    "patterns": ["dadah", "sampai jumpa lagi", "Sampai Jumpa", "Aku Pergi", "bye", "Duluan", "see ya","Selamat Tinggal"],
+    "responses": ["Tiati", "Sampai Jumpa Lagi", "Selamat Tinggal", "Hati Hati di Jalan", "Semoga kita Bertemu Kembali"]
+  },
+  {"tag": "umur",
+    "patterns": ["Berapa usiamu", "Berapa umurmu?", "Umur?", "Usia?"],
+    "responses": ["Aku masih muda", "Aku baru dikembangkan tahun ini"]
+  },
+  {"tag": "Dokter Jantung",
+    "patterns": ["Siapa Dokter Jantung?", "Dokter Jantung?", "Adakah Dokter Jantung?","Apakah ada Dokter Jantung?","Apakah ada yang bisa menangani sakit jantung"],
+    "responses": ["Dokter jantung ada Dokter Sean,dan Dokter Mif"]
+  },
+  {"tag": "Dokter Umum",
+    "patterns": ["Siapa Dokter Umum?", "Dokter Umum?","Adakah Dokter Umum?","Apakah ada Dokter Umum?","Dimanakah dokter umum"],
+    "responses": ["Dokter umum ada Dokter rian, dan Dokter Amar"]
+  },
+  {"tag": "nama",
+    "patterns": ["Siapa namamu?", "Kamu dipanggil apa?", "Kamu siapa?", "Siapa kamu?", "Bisa beritahu namamu"],
+    "responses": ["Aku rovid", "Aku biasa dipanggil Rovid!", "Aku Rovid, aku disini untuk membantu"]
+  },
+  {"tag": "dokter",
+    "patterns": ["Bisa kamu beritahu siapa dokternya?", "dokter?", "Bagaimana dengan dokter?", "Siapa dokternya?"],
+    "responses": ["Dokter apa yang kamu cari?", "Mohon maaf dokter apa yang dicari?"]
+  },
+  {"tag": "resepsionis",
+    "patterns": ["Dimana letak Resepsionis?", "Dimanakah resepsionis?", "Bisa kamu beritahu dimana resepsionisnya?", "resepsionis"],
+    "responses": ["Resepsionis berada di lantai satu depan pintu utama"]
+  },
+  {"tag": "jam",
+    "patterns": ["Kapan kalian buka", "Biasa buka jam berapa?", "waktu kerja", "jam kerja"],
+    "responses": ["Biasanya 24 jam"]
+  },
+  {"tag": "farmasi",
+     "patterns": ["Dimana aku bisa menemukan farmasi?", "Dimana farmasi?", "Bisa kamu beritahu dimana letak farmasi?"],
+    "responses": ["Farmasi berada di lantai 1 disebelah resepsionis"]
+  },
+  {"tag": "kunjungan",
+    "patterns": ["Kapan aku bisa mengunjungi pasien?", "Bisakah aku mengunjungi pasien?", "jam besuk", "Kapan jam besuk?"],
+    "responses": ["Kamu bisa mengunjugi pasien pada saat jam 4 sore hingga jam 6 sore atau jam 7 malam hinggan jam 9 malam"]
+  },
+  {"tag": "makanan",
+    "patterns": ["Saran makanan untuk orang sakit?", "Makanan yang cocok untuk orang sakit?", "makanan untuk pasien?", "Apa saja makanan untuk orang sakit?"],
+    "responses": ["Kamu bisa mencoba sup ayam atau kaldu tulang", "Coba minum air kelapa itu akan membuatmu merasa baik", "memperbanyak asupan makanan bergizi seperti buah dan sayur, dan minuman kaya akan elektrolit"]
+  },
+  {"tag": "kantin",
+    "patterns": ["Dimana Kantin?", "Kantin?", "Dimana letak kantin?", "Kantin disebelah mana?"],
+    "responses": ["Kantin berada di lantai 1 dekat pintu utama sebelah parkiran"]
+  },
+  {"tag": "toilet",
+    "patterns": ["Dimana toilet?", "Toilet", "Bisakah kau beritahu dimana letak toilet?", "Toilet dimana?"],
+    "responses": ["Toilet berada di belakang resepsionis, kamu bisa masuk ke lorong disebelahnya lalu belok kiri"]
+  },
+  {"tag": "pendaftaran",
+    "patterns": ["Bagaimana cara mendaftar?", "Cara pendataran", "Dimana aku bisa mendaftar?", "Bagaimana cara melakukan pendaftaran?"],
+    "responses": ["Kamu bisa mengambil nomor antrian di kassa 1 dan mennunggu nomormu dipanggil"]
+  },
+  {"tag": "Dokter Gigi",
+    "patterns": ["Siapa Dokter Gigi?", "Dokter Gigi?", "Adakah Dokter Gigi?","Apakah ada Dokter Gigi?","Apakah ada yang bisa menangani sakit gigi"],
+    "responses": ["Dokter Gigi ada Dokter dafin dan Dokter Ardi"]
+  },
+  {"tag": "Pembayaran",
+    "patterns": ["Cara melakukan pembayaran?", "Metode pembayaran ada apa saja?", "cara membayar?","bagaimana sistem pembayaran?"],
+    "responses": ["pembayaran bisa dilakukan di reseptionis, pembayaran dapat menggunakan debit kredit dan asuransi"]
+  },
+  {"tag": "Obat",
+    "patterns": ["dimana mengambil obat?", "Obat diambil dimana?", "pengambilan obat?","ngambil obat dimana?"],
+    "responses": ["obat bisa diambil di farmasi","bisa anda ambil di loket farmasi"]
+  },
+  {"tag": "Lift",
+    "patterns": ["dimana letak lift?", "Lift ada dimana?", "bisa naik lift?","apakah ada lift?"],
+    "responses": ["lift berada disebelah resepsionis"]
+  }
+]
+}
